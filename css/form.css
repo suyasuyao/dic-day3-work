@@ -1,0 +1,45 @@
+header {
+  background-color: blue;
+  color: white;
+
+}
+
+header .logo {
+  float:left;
+}
+
+header ul {
+  list-style: none;
+  text-align: right;
+}
+
+header li {
+  display: inline;
+}
+
+aside {
+  float:left;
+}
+
+aside ul {
+  list-style: none;
+}
+
+div.form {
+  text-align: center;
+}
+
+article {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+article button  {
+  background-color: red;
+  color: white;
+}
