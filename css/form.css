@@ -1,3 +1,26 @@
+.main-pic {
+
+  width: 100%;
+}
+
+.form-header {
+
+  text-align: center;
+}
+
+.name-label span {
+  background: #ffc;
+  border: 1px solid #fc6;
+  height: 45px;
+  position: relative;
+  top: -85px;
+  left: 0;
+  text-align: center;
+  padding: 20px 12px 10px;
+  z-index: 2;
+  display: none;
+}
+
 header {
   background-color: blue;
   color: white;
@@ -5,7 +28,7 @@ header {
 }
 
 header .logo {
-  float:left;
+  float: left;
 }
 
 header ul {
@@ -18,7 +41,7 @@ header li {
 }
 
 aside {
-  float:left;
+  float: left;
 }
 
 aside ul {
@@ -39,7 +62,7 @@ footer {
   color: white;
 }
 
-article button  {
+article button {
   background-color: red;
   color: white;
 }

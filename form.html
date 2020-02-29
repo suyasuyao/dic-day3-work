@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <link rel="stylesheet" type="text/css" href="css/form.css">
 
-  </head>
-  <body>
-    <header>
-       <ul>
-         <li class="logo">1月</li>
-         <li>ホーム</li>
-         <li>問い合わせ</li>
-       </ul>
-    </header>
-     <div class="form" >問合せ</div>
-    <aside>
-      <ul>
-        <li>ホーム</li>
-        <li>問い合わせ</li>
-      </ul>
-    </aside>
-    <article>
-       <form action="/my-handling-form-page" method="post">
-         <div>
-       <label for="name">お名前:</label>
-      <input type="text" id="name" name="user_name">
-    </div>
-    <div>
-      <label for="mail">メールアドレス:</label>
-      <input type="email" id="mail" name="user_mail">
-    </div>
-    <div>
-      <label for="msg">問い合わせ内容:</label>
-      <textarea id="msg" name="user_message"></textarea>
-    </div>
-    <div class="button">
-     <button type="submit">送信</button>
-        </div>
-  </form>
-    </article>
-    <footer>
-      <p> Copyright １月 </p>
-    </footer>
-  </body>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/form.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="form.js"> </script>
+</head>
+
+<body>
+
+  <header>
+    <ul>
+      <li class="logo">1月</li>
+      <li>ホーム</li>
+      <li>問い合わせ</li>
+    </ul>
+  </header>
+  <img class="main-pic" src="tumblr_mes9qdemeM1r0dnm6o1_500.jpg"></img>
+  <h1 class="form-header">問合せ</h1>
+
+  <aside>
+    <ul>
+      <li>ホーム</li>
+      <li>問い合わせ</li>
+    </ul>
+  </aside>
+  <article>
+    <form action="/my-handling-form-page" method="post">
+      <div class="name-label">
+        <label for="name">お名前:</label>
+        <span>名前を入力してください </span>
+        <input type="text" id="name" name="user_name">
+      </div>
+      <div>
+        <label for="mail">メールアドレス:</label>
+        <input type="email" id="mail" name="user_mail">
+      </div>
+      <div>
+        <label for="msg">問い合わせ内容:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+      <a href="#">
+        <img src="http://webcreatorbox.com/sample/images/btn_sample_off.jpg" alt="btn_sample_off" width="196"
+          height="47" />
+      </a>
+
+
+      <!-- <div class="button">
+        <button type="submit">送信</button>
+      </div> -->
+    </form>
+
+    <p class="toTop">ページトップへ</p>
+  </article>
+  <footer>
+    <p> Copyright １月 </p>
+  </footer>
+</body>
+
 </html>
